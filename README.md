@@ -1,6 +1,6 @@
 # Dalamud Plugins
 
-A shared custom plugin repository for plugins by kuchris. Subscribe to one URL and install each plugin separately.
+A shared custom plugin repository for plugins created or maintained by kuchris. Subscribe to one URL and install each plugin separately.
 
 ## Install
 
@@ -21,6 +21,7 @@ If you used the earlier `xivaichat/main/repo.json` URL, replace that custom repo
 | --- | --- | --- |
 | XIV AI Chat | AI reply drafts for the chat channels you choose. | [Source](https://github.com/kuchris/xivaichat) · [Releases](https://github.com/kuchris/xivaichat/releases) |
 | MoreMacros | Extra macro pages with native hotbar links, auto-translate, and macro command icons. | [Source](https://github.com/kuchris/moremacros) · [Releases](https://github.com/kuchris/moremacros/releases) |
+| Gillionaire | Gil trading plugin by [voidstar0](https://github.com/voidstar0/Gillionaire), with an API 15 fork maintained by kuchris. | [Fork source](https://github.com/kuchris/Gillionaire) · [Fork releases](https://github.com/kuchris/Gillionaire/releases) |
 
 This repository contains the plugin catalogue. Source code and installation ZIPs remain in each plugin's own repository. Each plugin also keeps its own version and configuration.
 
@@ -36,4 +37,4 @@ Catalogue updates are currently manual:
 
 To add another plugin, append an object with a unique `InternalName` and its own manifest fields and release links. Players keep the same subscription URL.
 
-The earlier catalogue in `kuchris/xivaichat` remains available for existing subscribers, but this repository is the primary catalogue. The XivAiChat release workflow updates that older file only; it does not automatically update this repository. After publishing either plugin, update this catalogue explicitly.
+The earlier catalogue in `kuchris/xivaichat` remains available for existing subscribers, but this repository is the primary catalogue. The XivAiChat release workflow updates that older file only; it does not automatically update this repository. After publishing any plugin, update this catalogue explicitly.
