@@ -59,10 +59,10 @@
     "DownloadLinkInstall": "https://github.com/kuchris/moremacros/releases/download/0.3.1.0/MoreMacros-0.3.1.0.zip"
   },
   {
-    "Author": "voidstar0",
+    "Author": "kuchris",
     "Name": "Gillionaire",
     "InternalName": "Gillionaire",
-    "AssemblyVersion": "0.0.0.2",
+    "AssemblyVersion": "0.0.0.3",
     "Description": "Automate the Gil sending process to send amounts over the maximum using /giltrade <amount>. Fork maintained by kuchris for Dalamud API 15.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kuchris/Gillionaire",
@@ -77,11 +77,11 @@
     "LoadPriority": 0,
     "Punchline": "Trading Gil quickly because time is money.",
     "AcceptsFeedback": true,
-    "TestingAssemblyVersion": "0.0.0.2",
+    "TestingAssemblyVersion": "0.0.0.3",
     "TestingDalamudApiLevel": 15,
-    "LastUpdate": 1790415645,
-    "DownloadLinkInstall": "https://github.com/kuchris/Gillionaire/releases/download/0.0.0.2/Gillionaire-0.0.0.2.zip",
-    "DownloadLinkUpdate": "https://github.com/kuchris/Gillionaire/releases/download/0.0.0.2/Gillionaire-0.0.0.2.zip",
-    "DownloadLinkTesting": "https://github.com/kuchris/Gillionaire/releases/download/0.0.0.2/Gillionaire-0.0.0.2.zip"
+    "LastUpdate": 1790415989,
+    "DownloadLinkInstall": "https://github.com/kuchris/Gillionaire/releases/download/0.0.0.3/Gillionaire-0.0.0.3.zip",
+    "DownloadLinkUpdate": "https://github.com/kuchris/Gillionaire/releases/download/0.0.0.3/Gillionaire-0.0.0.3.zip",
+    "DownloadLinkTesting": "https://github.com/kuchris/Gillionaire/releases/download/0.0.0.3/Gillionaire-0.0.0.3.zip"
   }
 ]
