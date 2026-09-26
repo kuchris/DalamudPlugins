@@ -1,0 +1,61 @@
+[
+  {
+    "Author": "kuchris",
+    "Name": "XIV AI Chat",
+    "Description": "Personal dev plugin that watches the selected FFXIV chat channels, sends per-channel context to LM Studio or API models like Gemini, supports saved system prompt presets, and can print or send replies back into the same channel in game. Slash command: /xivaichat",
+    "Punchline": "Draft or send AI replies in the chat channels you choose.",
+    "InternalName": "XivAiChat",
+    "AssemblyVersion": "0.1.2.0",
+    "TestingAssemblyVersion": "0.1.2.0",
+    "RepoUrl": "https://github.com/kuchris/xivaichat",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "DownloadCount": 0,
+    "LastUpdate": 1777562534,
+    "LoadPriority": 0,
+    "DownloadLinkInstall": "https://github.com/kuchris/xivaichat/releases/download/0.1.2.0/XivAiChat.zip",
+    "DownloadLinkUpdate": "https://github.com/kuchris/xivaichat/releases/download/0.1.2.0/XivAiChat.zip",
+    "DownloadLinkTesting": "https://github.com/kuchris/xivaichat/releases/download/0.1.2.0/XivAiChat.zip",
+    "IconUrl": "https://raw.githubusercontent.com/kuchris/xivaichat/main/images/icon.png",
+    "ImageUrls": [
+      "https://raw.githubusercontent.com/kuchris/xivaichat/main/images/icon.png"
+    ],
+    "Tags": [
+      "cwls",
+      "chat",
+      "lmstudio",
+      "ai",
+      "dev"
+    ]
+  },
+  {
+    "Author": "kuchris",
+    "Name": "MoreMacros",
+    "InternalName": "MoreMacros",
+    "AssemblyVersion": "0.3.1.0",
+    "Description": "Extra pages of 100 macros beside Individual and Shared, with native hotbar links, auto-translate, and macro command icons. English interface for the international client.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/kuchris/moremacros",
+    "Tags": [
+      "macro",
+      "macros",
+      "pages"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Extra macro pages beside Individual and Shared.",
+    "AcceptsFeedback": true,
+    "DownloadLinkTesting": "https://github.com/kuchris/moremacros/releases/download/0.3.1.0/MoreMacros-0.3.1.0.zip",
+    "TestingAssemblyVersion": "0.3.1.0",
+    "TestingDalamudApiLevel": 15,
+    "DownloadLinkUpdate": "https://github.com/kuchris/moremacros/releases/download/0.3.1.0/MoreMacros-0.3.1.0.zip",
+    "LastUpdate": 1790414892,
+    "DownloadLinkInstall": "https://github.com/kuchris/moremacros/releases/download/0.3.1.0/MoreMacros-0.3.1.0.zip"
+  }
+]
