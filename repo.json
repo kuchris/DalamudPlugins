@@ -35,7 +35,7 @@
     "Author": "kuchris",
     "Name": "MoreMacros",
     "InternalName": "MoreMacros",
-    "AssemblyVersion": "0.3.1.0",
+    "AssemblyVersion": "0.3.2.0",
     "Description": "Extra pages of 100 macros beside Individual and Shared, with native hotbar links, auto-translate, and macro command icons. English interface for the international client.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kuchris/moremacros",
@@ -51,12 +51,13 @@
     "LoadPriority": 0,
     "Punchline": "Extra macro pages beside Individual and Shared.",
     "AcceptsFeedback": true,
-    "DownloadLinkTesting": "https://github.com/kuchris/moremacros/releases/download/0.3.1.0/MoreMacros-0.3.1.0.zip",
-    "TestingAssemblyVersion": "0.3.1.0",
+    "DownloadLinkTesting": "https://github.com/kuchris/moremacros/releases/download/0.3.2.0/MoreMacros-0.3.2.0.zip",
+    "TestingAssemblyVersion": "0.3.2.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkUpdate": "https://github.com/kuchris/moremacros/releases/download/0.3.1.0/MoreMacros-0.3.1.0.zip",
-    "LastUpdate": 1790414892,
-    "DownloadLinkInstall": "https://github.com/kuchris/moremacros/releases/download/0.3.1.0/MoreMacros-0.3.1.0.zip"
+    "DownloadLinkUpdate": "https://github.com/kuchris/moremacros/releases/download/0.3.2.0/MoreMacros-0.3.2.0.zip",
+    "LastUpdate": 1790416815,
+    "DownloadLinkInstall": "https://github.com/kuchris/moremacros/releases/download/0.3.2.0/MoreMacros-0.3.2.0.zip",
+    "IconUrl": "https://raw.githubusercontent.com/kuchris/moremacros/0.3.2.0/images/icon.png"
   },
   {
     "Author": "kuchris",
