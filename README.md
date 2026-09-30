@@ -22,9 +22,9 @@ If you used the earlier `xivaichat/main/repo.json` URL, replace that custom repo
 | XIV AI Chat | AI reply drafts for the chat channels you choose. | [Source](https://github.com/kuchris/xivaichat) · [Releases](https://github.com/kuchris/xivaichat/releases) |
 | MoreMacros | Extra macro pages with native hotbar links, auto-translate, and macro command icons. | [Source](https://github.com/kuchris/moremacros) · [Releases](https://github.com/kuchris/moremacros/releases) |
 | Gillionaire | Gil trading plugin by [voidstar0](https://github.com/voidstar0/Gillionaire), with an API 15 fork maintained by kuchris. | [Fork source](https://github.com/kuchris/Gillionaire) · [Fork releases](https://github.com/kuchris/Gillionaire/releases) |
-| OCBFR | Global Occult Crescent coffer scanning and treasure routes, with Traditional Chinese / English UI. | [Source](https://github.com/kuchris/OCBFR) · [Setup](#ocbfr) · [Binary release](https://github.com/kuchris/DalamudPlugins/releases/tag/ocbfr-2.3.0.9) · [Ko-fi](https://ko-fi.com/kuchris) |
+| OCBFR | Global Occult Crescent coffer scanning and treasure routes, with Traditional Chinese / English UI. | [Source](https://github.com/kuchris/OCBFR) · [Setup](#ocbfr) · [Binary release](https://github.com/kuchris/OCBFR/releases/tag/ocbfr-2.3.0.9) · [Ko-fi](https://ko-fi.com/kuchris) |
 
-This repository contains the plugin catalogue. Most plugins keep their source and installation ZIPs in their own repositories. OCBFR's source is available in [kuchris/OCBFR](https://github.com/kuchris/OCBFR); this repository hosts its icon and compiled installation ZIP as a release asset. Each plugin keeps its own version and configuration.
+This repository contains the plugin catalogue and OCBFR's installer icon. Plugin source and installation ZIPs are hosted in their respective repositories, including [kuchris/OCBFR](https://github.com/kuchris/OCBFR). Each plugin keeps its own version and configuration.
 
 ## OCBFR
 
@@ -36,14 +36,14 @@ The OCBFR interface supports **繁體中文 / English** independently of the gam
 
 If switching from a DEV copy, emergency-stop, unload it and disable its Dev Plugin Location before installing from the catalogue. Preserve the existing Dalamud OCNFarmer configuration folder and do not load both copies. The internal name stays `OCNFarmer` to retain settings.
 
-Full English and Traditional Chinese installation instructions, required runtime libraries and checksums are included in the [binary release](https://github.com/kuchris/DalamudPlugins/releases/tag/ocbfr-2.3.0.9). Support: [ko-fi.com/kuchris](https://ko-fi.com/kuchris).
+Full English and Traditional Chinese installation instructions, required runtime libraries and checksums are included in the [binary release](https://github.com/kuchris/OCBFR/releases/tag/ocbfr-2.3.0.9). Support: [ko-fi.com/kuchris](https://ko-fi.com/kuchris).
 
 ## Publish an update
 
 Catalogue updates are currently manual:
 
 1. Build and test the plugin in its source repository.
-2. Commit and push its source to its designated repository, then publish its versioned installation ZIP as a GitHub Release asset. For OCBFR, maintain source in `kuchris/OCBFR` and publish the binary ZIP here.
+2. Commit and push its source to its designated repository, then publish its versioned installation ZIP as a GitHub Release asset in that repository. For OCBFR, maintain both source and releases in `kuchris/OCBFR`.
 3. Pull the latest `main` of this repository.
 4. In `repo.json`, update the object with the matching `InternalName`. Copy the package's version and Dalamud API level, refresh `LastUpdate` (Unix seconds), and set all download links to the published versioned ZIP. Keep other plugin entries intact.
 5. Validate the JSON and public download URL, then commit and push.

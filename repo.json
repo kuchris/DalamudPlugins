@@ -110,9 +110,9 @@
     "Punchline": "Occult Crescent Global：寶箱掃描、尋寶與退本重入。",
     "Changelog": "Global 2.3.0.9：移除總覽中的相關文件、連結按鈕及提示。Removed the related documentation row, link button and tooltip from Overview.",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/kuchris/DalamudPlugins/releases/download/ocbfr-2.3.0.9/OCBFR-2.3.0.9.zip",
-    "DownloadLinkUpdate": "https://github.com/kuchris/DalamudPlugins/releases/download/ocbfr-2.3.0.9/OCBFR-2.3.0.9.zip",
-    "DownloadLinkTesting": "https://github.com/kuchris/DalamudPlugins/releases/download/ocbfr-2.3.0.9/OCBFR-2.3.0.9.zip",
+    "DownloadLinkInstall": "https://github.com/kuchris/OCBFR/releases/download/ocbfr-2.3.0.9/OCBFR-2.3.0.9.zip",
+    "DownloadLinkUpdate": "https://github.com/kuchris/OCBFR/releases/download/ocbfr-2.3.0.9/OCBFR-2.3.0.9.zip",
+    "DownloadLinkTesting": "https://github.com/kuchris/OCBFR/releases/download/ocbfr-2.3.0.9/OCBFR-2.3.0.9.zip",
     "TestingAssemblyVersion": "2.3.0.9",
     "TestingDalamudApiLevel": 15,
     "LastUpdate": 1790766420
