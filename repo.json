@@ -92,7 +92,7 @@
     "AssemblyVersion": "2.3.0.9",
     "Description": "Global Occult Crescent coffer scanning, treasure routes and re-entry. Traditional Chinese / English UI. Requires Daily Routines, vnavmesh and BOCCHI; keep DR in Simplified Chinese for route names. North English-client workflows tested; South, Japanese and patched-client live checks remain pending.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/kuchris/DalamudPlugins#ocbfr",
+    "RepoUrl": "https://github.com/kuchris/OCBFR",
     "Tags": [
       "Occult Crescent",
       "Global",

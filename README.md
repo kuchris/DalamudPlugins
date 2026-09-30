@@ -22,13 +22,13 @@ If you used the earlier `xivaichat/main/repo.json` URL, replace that custom repo
 | XIV AI Chat | AI reply drafts for the chat channels you choose. | [Source](https://github.com/kuchris/xivaichat) · [Releases](https://github.com/kuchris/xivaichat/releases) |
 | MoreMacros | Extra macro pages with native hotbar links, auto-translate, and macro command icons. | [Source](https://github.com/kuchris/moremacros) · [Releases](https://github.com/kuchris/moremacros/releases) |
 | Gillionaire | Gil trading plugin by [voidstar0](https://github.com/voidstar0/Gillionaire), with an API 15 fork maintained by kuchris. | [Fork source](https://github.com/kuchris/Gillionaire) · [Fork releases](https://github.com/kuchris/Gillionaire/releases) |
-| OCBFR | Global Occult Crescent coffer scanning and treasure routes, with Traditional Chinese / English UI. | [Setup](#ocbfr) · [Binary release](https://github.com/kuchris/DalamudPlugins/releases/tag/ocbfr-2.3.0.9) · [Ko-fi](https://ko-fi.com/kuchris) |
+| OCBFR | Global Occult Crescent coffer scanning and treasure routes, with Traditional Chinese / English UI. | [Source](https://github.com/kuchris/OCBFR) · [Setup](#ocbfr) · [Binary release](https://github.com/kuchris/DalamudPlugins/releases/tag/ocbfr-2.3.0.9) · [Ko-fi](https://ko-fi.com/kuchris) |
 
-This repository contains the plugin catalogue. Most plugins keep their source and installation ZIPs in their own repositories. OCBFR's source is private; this repository hosts its icon and compiled installation ZIP as a release asset. Each plugin keeps its own version and configuration.
+This repository contains the plugin catalogue. Most plugins keep their source and installation ZIPs in their own repositories. OCBFR's source is available in [kuchris/OCBFR](https://github.com/kuchris/OCBFR); this repository hosts its icon and compiled installation ZIP as a release asset. Each plugin keeps its own version and configuration.
 
 ## OCBFR
 
-Version **2.3.0.9**, Dalamud API **15**, maintained by **kuchris**. The source is not open source. Install **OCBFR** using the catalogue URL above, then open `/ocnchest` to configure it. `/ocnstart` starts the workflow; `/ocnstop` stops it. Use **Emergency stop** in the interface to also stop external route/navigation activity.
+Version **2.3.0.9**, Dalamud API **15**, maintained by **kuchris**. [Source code](https://github.com/kuchris/OCBFR) is publicly available. Install **OCBFR** using the catalogue URL above, then open `/ocnchest` to configure it. `/ocnstart` starts the workflow; `/ocnstop` stops it. Use **Emergency stop** in the interface to also stop external route/navigation activity.
 
 Install **Daily Routines**, **vnavmesh** and **BOCCHI** separately. In OCBFR's Overview, **Enable required DR modules** enables the relevant DR modules. Keep DR's UI language set to **Simplified Chinese**, because the established treasure routes use `内环` and `外环`. Enable opening nearby coffers in DR's Occult Crescent helper and disable BOCCHI's automatic duty rotation. Select the target island and an unlocked combat phantom job before starting. Leave the Debug simulation options off for normal operation.
 
@@ -43,7 +43,7 @@ Full English and Traditional Chinese installation instructions, required runtime
 Catalogue updates are currently manual:
 
 1. Build and test the plugin in its source repository.
-2. Commit and push its source to its designated repository, then publish its versioned installation ZIP as a GitHub Release asset. For OCBFR, push source only to the private source repository and publish the binary ZIP here. Never copy its C# files or source archives into this public repository.
+2. Commit and push its source to its designated repository, then publish its versioned installation ZIP as a GitHub Release asset. For OCBFR, maintain source in `kuchris/OCBFR` and publish the binary ZIP here.
 3. Pull the latest `main` of this repository.
 4. In `repo.json`, update the object with the matching `InternalName`. Copy the package's version and Dalamud API level, refresh `LastUpdate` (Unix seconds), and set all download links to the published versioned ZIP. Keep other plugin entries intact.
 5. Validate the JSON and public download URL, then commit and push.
