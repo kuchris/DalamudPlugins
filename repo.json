@@ -116,5 +116,39 @@
     "TestingAssemblyVersion": "2.3.0.20",
     "TestingDalamudApiLevel": 15,
     "LastUpdate": 1791607476
+  },
+  {
+    "Author": "kuchris",
+    "Name": "MahjongXIV",
+    "InternalName": "MahjongXIV",
+    "AssemblyVersion": "0.2.0.0",
+    "Description": "Reads Doman Mahjong, computes the best discard and call, shows a suggestion overlay, and can play for you.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/kuchris/MahjongXIV",
+    "Tags": [
+      "mahjong",
+      "doman mahjong",
+      "gold saucer",
+      "solver",
+      "automation"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/kuchris/MahjongXIV/main/MahjongXiv/Images/Icon.png",
+    "Punchline": "Doman Mahjong, solved for you.",
+    "Changelog": "Rebranded to MahjongXIV. Same plugin (InternalName MahjongXIV), so existing installs update in place.",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/kuchris/MahjongXIV/releases/download/v0.2.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/kuchris/MahjongXIV/releases/download/v0.2.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/kuchris/MahjongXIV/releases/download/v0.2.0.0/latest.zip",
+    "TestingAssemblyVersion": "0.2.0.0",
+    "TestingDalamudApiLevel": 15,
+    "LastUpdate": 1792044090
   }
 ]
