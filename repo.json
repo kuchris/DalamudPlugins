@@ -150,5 +150,33 @@
     "TestingAssemblyVersion": "0.2.0.0",
     "TestingDalamudApiLevel": 15,
     "LastUpdate": 1792044090
+  },
+  {
+    "Author": "kuchris",
+    "Name": "XivMark",
+    "InternalName": "XivMark",
+    "AssemblyVersion": "0.4.0.0",
+    "Description": "Automatic native target markers in Frontline with configurable jobs, markers, order, timing, distance and job-change cleanup.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/kuchris/xivmark",
+    "Tags": [
+      "frontline",
+      "pvp",
+      "markers"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/kuchris/xivmark/0.4.0.0/images/icon.png",
+    "Punchline": "Customizable enemy job markers in Frontline.",
+    "AcceptsFeedback": true,
+    "TestingAssemblyVersion": "0.4.0.0",
+    "TestingDalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/kuchris/xivmark/releases/download/0.4.0.0/XivMark-0.4.0.0.zip",
+    "DownloadLinkUpdate": "https://github.com/kuchris/xivmark/releases/download/0.4.0.0/XivMark-0.4.0.0.zip",
+    "DownloadLinkTesting": "https://github.com/kuchris/xivmark/releases/download/0.4.0.0/XivMark-0.4.0.0.zip",
+    "LastUpdate": 1792868195
   }
 ]
