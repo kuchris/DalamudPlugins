@@ -155,7 +155,7 @@
     "Author": "kuchris",
     "Name": "XivMark",
     "InternalName": "XivMark",
-    "AssemblyVersion": "0.4.0.0",
+    "AssemblyVersion": "0.4.1.0",
     "Description": "Automatic native target markers in Frontline with configurable jobs, markers, order, timing, distance and job-change cleanup.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kuchris/xivmark",
@@ -169,14 +169,14 @@
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "IconUrl": "https://raw.githubusercontent.com/kuchris/xivmark/0.4.0.0/images/icon.png",
+    "IconUrl": "https://raw.githubusercontent.com/kuchris/xivmark/0.4.1.0/images/icon.png",
     "Punchline": "Customizable enemy job markers in Frontline.",
     "AcceptsFeedback": true,
-    "TestingAssemblyVersion": "0.4.0.0",
+    "TestingAssemblyVersion": "0.4.1.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/kuchris/xivmark/releases/download/0.4.0.0/XivMark-0.4.0.0.zip",
-    "DownloadLinkUpdate": "https://github.com/kuchris/xivmark/releases/download/0.4.0.0/XivMark-0.4.0.0.zip",
-    "DownloadLinkTesting": "https://github.com/kuchris/xivmark/releases/download/0.4.0.0/XivMark-0.4.0.0.zip",
-    "LastUpdate": 1792868195
+    "DownloadLinkInstall": "https://github.com/kuchris/xivmark/releases/download/0.4.1.0/XivMark-0.4.1.0.zip",
+    "DownloadLinkUpdate": "https://github.com/kuchris/xivmark/releases/download/0.4.1.0/XivMark-0.4.1.0.zip",
+    "DownloadLinkTesting": "https://github.com/kuchris/xivmark/releases/download/0.4.1.0/XivMark-0.4.1.0.zip",
+    "LastUpdate": 1792909561
   }
 ]
