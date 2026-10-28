@@ -183,7 +183,7 @@
     "Author": "kuchris",
     "Name": "XivType",
     "InternalName": "XivType",
-    "AssemblyVersion": "0.1.73.0",
+    "AssemblyVersion": "0.1.74.0",
     "Description": "Reads Keybound Brawler enemy prompts and types them with keystrokes sent only to the game window, with shortest-prompt or nearest-enemy targeting, background typing and pauses for input-locking casts. English and Japanese clients.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kuchris/xivtype",
@@ -198,15 +198,15 @@
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "IconUrl": "https://raw.githubusercontent.com/kuchris/xivtype/0.1.73.0/images/icon.png",
+    "IconUrl": "https://raw.githubusercontent.com/kuchris/xivtype/0.1.74.0/images/icon.png",
     "Punchline": "Automatic typing for Keybound Brawler (English and Japanese clients).",
     "AcceptsFeedback": true,
-    "TestingAssemblyVersion": "0.1.73.0",
+    "TestingAssemblyVersion": "0.1.74.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/kuchris/xivtype/releases/download/0.1.73.0/XivType-0.1.73.0.zip",
-    "DownloadLinkUpdate": "https://github.com/kuchris/xivtype/releases/download/0.1.73.0/XivType-0.1.73.0.zip",
-    "DownloadLinkTesting": "https://github.com/kuchris/xivtype/releases/download/0.1.73.0/XivType-0.1.73.0.zip",
-    "LastUpdate": 1793211784,
-    "Changelog": "0.1.73: Japanese client support; the loop accepts the Japanese Duty Ready; the window opens on entering. 0.1.72: the run loop exits the results screen automatically. 0.1.71: run loop and read-only chat window during the activity."
+    "DownloadLinkInstall": "https://github.com/kuchris/xivtype/releases/download/0.1.74.0/XivType-0.1.74.0.zip",
+    "DownloadLinkUpdate": "https://github.com/kuchris/xivtype/releases/download/0.1.74.0/XivType-0.1.74.0.zip",
+    "DownloadLinkTesting": "https://github.com/kuchris/xivtype/releases/download/0.1.74.0/XivType-0.1.74.0.zip",
+    "LastUpdate": 1793212087,
+    "Changelog": "0.1.74: window language picker (English, Japanese, Traditional Chinese). 0.1.73: Japanese client support; the loop accepts the Japanese Duty Ready; the window opens on entering. 0.1.72: the run loop exits the results screen automatically. 0.1.71: run loop and read-only chat window during the activity."
   }
 ]
