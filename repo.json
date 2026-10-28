@@ -183,7 +183,7 @@
     "Author": "kuchris",
     "Name": "XivType",
     "InternalName": "XivType",
-    "AssemblyVersion": "0.1.71.0",
+    "AssemblyVersion": "0.1.72.0",
     "Description": "Reads Keybound Brawler enemy prompts and types them with keystrokes sent only to the game window, with shortest-prompt or nearest-enemy targeting, background typing and pauses for input-locking casts. English client only.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kuchris/xivtype",
@@ -198,15 +198,15 @@
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "IconUrl": "https://raw.githubusercontent.com/kuchris/xivtype/0.1.71.0/images/icon.png",
+    "IconUrl": "https://raw.githubusercontent.com/kuchris/xivtype/0.1.72.0/images/icon.png",
     "Punchline": "Automatic English typing for Keybound Brawler.",
     "AcceptsFeedback": true,
-    "TestingAssemblyVersion": "0.1.71.0",
+    "TestingAssemblyVersion": "0.1.72.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/kuchris/xivtype/releases/download/0.1.71.0/XivType-0.1.71.0.zip",
-    "DownloadLinkUpdate": "https://github.com/kuchris/xivtype/releases/download/0.1.71.0/XivType-0.1.71.0.zip",
-    "DownloadLinkTesting": "https://github.com/kuchris/xivtype/releases/download/0.1.71.0/XivType-0.1.71.0.zip",
-    "LastUpdate": 1793196185,
-    "Changelog": "0.1.71: run loop (Registrar, Register, Commence, type each run) and a read-only chat window during the activity. 0.1.55: Ko-fi heart."
+    "DownloadLinkInstall": "https://github.com/kuchris/xivtype/releases/download/0.1.72.0/XivType-0.1.72.0.zip",
+    "DownloadLinkUpdate": "https://github.com/kuchris/xivtype/releases/download/0.1.72.0/XivType-0.1.72.0.zip",
+    "DownloadLinkTesting": "https://github.com/kuchris/xivtype/releases/download/0.1.72.0/XivType-0.1.72.0.zip",
+    "LastUpdate": 1793199936,
+    "Changelog": "0.1.72: the run loop exits the results screen automatically. 0.1.71: run loop and read-only chat window during the activity."
   }
 ]
