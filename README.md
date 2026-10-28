@@ -22,4 +22,4 @@ Enable the repository and save, then open `/xlplugins` to install plugins.
 | OCBFR | Occult Crescent automation and loot tracking. | [Source](https://github.com/kuchris/OCBFR) · [Releases](https://github.com/kuchris/OCBFR/releases) |
 | MahjongXIV | Doman Mahjong solver and auto-play. | [Source](https://github.com/kuchris/MahjongXIV) · [Releases](https://github.com/kuchris/MahjongXIV/releases) |
 | XivMark | Configurable Frontline enemy job markers. | [Source](https://github.com/kuchris/xivmark) · [Releases](https://github.com/kuchris/xivmark/releases) |
-| XivType | Automatic English typing for Keybound Brawler. | [Source](https://github.com/kuchris/xivtype) · [Releases](https://github.com/kuchris/xivtype/releases) |
+| XivType | Automatic typing for Keybound Brawler (English and Japanese clients). | [Source](https://github.com/kuchris/xivtype) · [Releases](https://github.com/kuchris/xivtype/releases) |
