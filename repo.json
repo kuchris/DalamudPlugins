@@ -183,7 +183,7 @@
     "Author": "kuchris",
     "Name": "XivType",
     "InternalName": "XivType",
-    "AssemblyVersion": "0.1.36.0",
+    "AssemblyVersion": "0.1.42.0",
     "Description": "Reads Keybound Brawler enemy prompts and types them with keystrokes sent only to the game window, with shortest-prompt or nearest-enemy targeting, background typing and pauses for input-locking casts. English client only.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/kuchris/xivtype",
@@ -198,15 +198,15 @@
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "IconUrl": "https://raw.githubusercontent.com/kuchris/xivtype/0.1.36.0/images/icon.png",
+    "IconUrl": "https://raw.githubusercontent.com/kuchris/xivtype/0.1.42.0/images/icon.png",
     "Punchline": "Automatic English typing for Keybound Brawler.",
     "AcceptsFeedback": true,
-    "TestingAssemblyVersion": "0.1.36.0",
+    "TestingAssemblyVersion": "0.1.42.0",
     "TestingDalamudApiLevel": 15,
-    "DownloadLinkInstall": "https://github.com/kuchris/xivtype/releases/download/0.1.36.0/XivType-0.1.36.0.zip",
-    "DownloadLinkUpdate": "https://github.com/kuchris/xivtype/releases/download/0.1.36.0/XivType-0.1.36.0.zip",
-    "DownloadLinkTesting": "https://github.com/kuchris/xivtype/releases/download/0.1.36.0/XivType-0.1.36.0.zip",
-    "LastUpdate": 1793189972,
-    "Changelog": "0.1.36: background typing sends real keystrokes to the game window, fixing inactivity expulsion; opens the input with Enter; correct punctuation; retypes wrong input; jammer/Cursed Gaze pause from half cast."
+    "DownloadLinkInstall": "https://github.com/kuchris/xivtype/releases/download/0.1.42.0/XivType-0.1.42.0.zip",
+    "DownloadLinkUpdate": "https://github.com/kuchris/xivtype/releases/download/0.1.42.0/XivType-0.1.42.0.zip",
+    "DownloadLinkTesting": "https://github.com/kuchris/xivtype/releases/download/0.1.42.0/XivType-0.1.42.0.zip",
+    "LastUpdate": 1793191010,
+    "Changelog": "0.1.42: faster gap between prompts, adjustable key hold, missed keys retried then retyped, accented letters typed as base letters, 3 s wait after jammer/Cursed Gaze casts."
   }
 ]
