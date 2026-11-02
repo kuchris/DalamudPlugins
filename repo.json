@@ -61,12 +61,12 @@
   },
   {
     "Author": "kuchris",
-    "Name": "Gillionaire",
-    "InternalName": "Gillionaire",
-    "AssemblyVersion": "0.0.0.3",
-    "Description": "Automate the Gil sending process to send amounts over the maximum using /giltrade <amount>. Fork maintained by kuchris for Dalamud API 15.",
+    "Name": "xivtrade",
+    "InternalName": "xivtrade",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "Send gil across consecutive trades, or automatically receive pure gil trades from any player. Use /xivtrade.",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/kuchris/Gillionaire",
+    "RepoUrl": "https://github.com/kuchris/xivtrade",
     "Tags": [
       "gil",
       "trade"
@@ -76,14 +76,16 @@
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "Punchline": "Trading Gil quickly because time is money.",
+    "IconUrl": "https://raw.githubusercontent.com/kuchris/xivtrade/1.0.0.0/images/icon.png",
+    "Punchline": "Send and receive gil with a simple trade window.",
+    "Changelog": "Remade Gillionaire as xivtrade with automatic gil receiving, a simpler Send/Receive window, and verified transfer progress. Disable or remove Gillionaire before installing xivtrade; the plugin identity has changed.",
     "AcceptsFeedback": true,
-    "TestingAssemblyVersion": "0.0.0.3",
+    "TestingAssemblyVersion": "1.0.0.0",
     "TestingDalamudApiLevel": 15,
-    "LastUpdate": 1790415989,
-    "DownloadLinkInstall": "https://github.com/kuchris/Gillionaire/releases/download/0.0.0.3/Gillionaire-0.0.0.3.zip",
-    "DownloadLinkUpdate": "https://github.com/kuchris/Gillionaire/releases/download/0.0.0.3/Gillionaire-0.0.0.3.zip",
-    "DownloadLinkTesting": "https://github.com/kuchris/Gillionaire/releases/download/0.0.0.3/Gillionaire-0.0.0.3.zip"
+    "LastUpdate": 1793604908,
+    "DownloadLinkInstall": "https://github.com/kuchris/xivtrade/releases/download/1.0.0.0/xivtrade-1.0.0.0.zip",
+    "DownloadLinkUpdate": "https://github.com/kuchris/xivtrade/releases/download/1.0.0.0/xivtrade-1.0.0.0.zip",
+    "DownloadLinkTesting": "https://github.com/kuchris/xivtrade/releases/download/1.0.0.0/xivtrade-1.0.0.0.zip"
   },
   {
     "Author": "kuchris",
